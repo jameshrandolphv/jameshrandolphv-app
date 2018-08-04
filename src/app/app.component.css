@@ -1,0 +1,16 @@
+.app {
+  background-color: rgb(112, 112, 112);
+  background-image: url(../assets/images/coffee-material.png);
+  background-position: 0% 0%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.app-body {
+  margin: 20px;
+}
+
+mat-toolbar {
+  background-color: rgba(0, 0, 0, 0.568);
+}

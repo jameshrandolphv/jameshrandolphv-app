@@ -1,0 +1,9 @@
+.soundcloud {
+  border-radius: 5px;
+  border: 0px;
+  margin: 10px 0px;
+}
+
+mat-card {
+  background-color: rgba(0, 0, 0, 0.432);
+}
