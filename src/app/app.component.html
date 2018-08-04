@@ -1,6 +1,8 @@
 <div class="app">
-  <mat-toolbar fxLayout="row" fxLayoutAlign="center center" fxLayoutAlign.lt-md="center center">
-    <span>Welcome to Jay's Website!</span>
+  <mat-toolbar fxLayout="row" fxLayoutAlign="start center">
+    <span fxFlex="33" fxLayout="row" fxLayoutAlign="start">James Randolph</span>
+    <span fxFlex="33" fxLayout="row" fxLayoutAlign="center">{{this.getTime()}}</span>
+    <span fxFlex="33" fxLayout="row" fxLayoutAlign="end">{{this.batteryLevel}}</span>
   </mat-toolbar>
   <div class="app-body">
     <router-outlet></router-outlet>

@@ -1,6 +1,6 @@
 .app {
   background-color: rgb(112, 112, 112);
-  background-image: url(../assets/images/coffee-material.png);
+  background-image: url(../assets/images/mountains.png);
   background-position: 0% 0%;
   background-size: cover;
   width: 100%;
@@ -13,4 +13,5 @@
 
 mat-toolbar {
   background-color: rgba(0, 0, 0, 0.568);
+  height: 5vh;
 }
