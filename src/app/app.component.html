@@ -1,8 +1,9 @@
-<div class="app" fxLayout="column" fxLayoutAlign="start center">
+<div class="app" id="app-window" fxLayout="column" fxLayoutAlign="start center">
   <mat-toolbar fxLayout="row" fxLayoutAlign="start center">
-    <span fxFlex="50" fxLayout="row" fxLayoutAlign="start"><h4 style="font-weight: 300">James Randolph</h4></span>
-    <span fxFlex="50" fxLayout="row" fxLayoutAlign="end"><h4 style="font-weight: 300">{{this.getTime()}}</h4></span>
+    <span fxFlex="50" fxLayout="row" fxLayoutAlign="start center"><h4 style="font-weight: 300">James Randolph</h4></span>
+    <span fxFlex="50" fxLayout="row" fxLayoutAlign="end center"><h4 style="font-weight: 300"><span class="hour">{{this.hour}}:</span><span class="minute">{{this.minute}}:</span><span class="second">{{this.second}}</span></h4></span>
   </mat-toolbar>
+  <h4 fxFlexAlign="end" style="font-weight: 300"><mat-icon id="blur-toggle" class="background-toggle" (click)="toggleBackground()">blur_off</mat-icon></h4>
   <div class="app-body" fxFlex="fill">
     <router-outlet></router-outlet>
   </div>

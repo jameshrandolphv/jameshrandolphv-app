@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { BioCardComponent } from './home/bio-card/bio-card.component';
 import { MusicCardComponent } from './home/music-card/music-card.component';
 import { DockComponent } from './dock/dock.component';
+import { MusicWindowComponent } from './home/music-window/music-window.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DockComponent } from './dock/dock.component';
     BioCardComponent,
     HomeComponent,
     MusicCardComponent,
-    DockComponent
+    DockComponent,
+    MusicWindowComponent
   ],
   imports: [
     BrowserModule,

@@ -13,7 +13,32 @@
 
 mat-toolbar {
   background-color: rgba(0, 0, 0, 0.568);
+  /* background-color: rgba(64, 109, 96, 0.568); */
   height: 9vh;
   color: rgba(255, 255, 255, 0.801);
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.63); */
+  /* border-bottom: 2px solid rgba(173, 64, 150, 0.63); */
+}
+
+.background-toggle {
+  margin-right: 20px;
+}
+
+.background-toggle:hover {
+  cursor: pointer;
+  color: rgba(210, 255, 212, 0.856);
+}
+
+.hour {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.minute {
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.second {
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.404);
 }

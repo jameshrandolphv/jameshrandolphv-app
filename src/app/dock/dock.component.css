@@ -30,9 +30,9 @@ a {
 .icon-mobile {
   font-size: 2em;
   color: rgba(255, 255, 255, 0.801);
-  border-radius: 15px;
-  height: 8vh;
-  width: 8vh;
+  border-radius: 10px;
+  height: 9vh;
+  width: 9vh;
 }
 
 .icon:hover {
