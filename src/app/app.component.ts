@@ -8,17 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'jameshrandolphv-app';
 
-  batteryLevel = '100%';
-
-  constructor() {
-    navigator.getBattery().then(
-      (battery) => {
-        this.batteryLevel = battery.level * 100 + "%";
-        battery.addEventListener('levelchange', () => this.batteryLevel = battery.level * 100 + "%");
-      }
-    );
-  }
-
   today = new Date();
 
   getTime() {

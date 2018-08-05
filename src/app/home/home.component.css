@@ -5,3 +5,9 @@
 .music-card {
   margin-bottom: 20px;
 }
+
+.global-message {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 100;
+}

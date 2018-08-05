@@ -1,10 +1,9 @@
-<div class="app">
+<div class="app" fxLayout="column">
   <mat-toolbar fxLayout="row" fxLayoutAlign="start center">
-    <span fxFlex="33" fxLayout="row" fxLayoutAlign="start">James Randolph</span>
-    <span fxFlex="33" fxLayout="row" fxLayoutAlign="center">{{this.getTime()}}</span>
-    <span fxFlex="33" fxLayout="row" fxLayoutAlign="end">{{this.batteryLevel}}</span>
+    <span fxFlex="50" fxLayout="row" fxLayoutAlign="start"><h4 style="font-weight: 300">James Randolph</h4></span>
+    <span fxFlex="50" fxLayout="row" fxLayoutAlign="end"><h4 style="font-weight: 300">{{this.getTime()}}</h4></span>
   </mat-toolbar>
-  <div class="app-body">
+  <div class="app-body" fxFlex="fill">
     <router-outlet></router-outlet>
   </div>
 </div>
