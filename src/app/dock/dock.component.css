@@ -43,18 +43,6 @@ a {
   cursor: pointer;
 }
 
-.icon-name {
-  font-size: .8em;
-  font-weight: 250;
-  color: rgba(255, 255, 255, 0.87);
-  margin-top: 5px;
-  margin-left: 25px;
-}
-
-.icon-name-first {
-  margin-left: 0px;
-}
-
 .music {
   background-color: rgba(235, 147, 65, .9);
 }

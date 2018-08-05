@@ -13,7 +13,7 @@
 
 mat-toolbar {
   background-color: rgba(0, 0, 0, 0.568);
-  height: 7vh;
+  height: 9vh;
   color: rgba(255, 255, 255, 0.801);
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.63); */
 }
