@@ -1,4 +1,4 @@
-<div class="app" fxLayout="column">
+<div class="app" fxLayout="column" fxLayoutAlign="start center">
   <mat-toolbar fxLayout="row" fxLayoutAlign="start center">
     <span fxFlex="50" fxLayout="row" fxLayoutAlign="start"><h4 style="font-weight: 300">James Randolph</h4></span>
     <span fxFlex="50" fxLayout="row" fxLayoutAlign="end"><h4 style="font-weight: 300">{{this.getTime()}}</h4></span>
@@ -6,4 +6,5 @@
   <div class="app-body" fxFlex="fill">
     <router-outlet></router-outlet>
   </div>
+  <app-dock></app-dock>
 </div>
