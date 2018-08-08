@@ -3,8 +3,8 @@
     <span fxFlex="50" fxLayout="row" fxLayoutAlign="start center"><h4 style="font-weight: 300">James Randolph</h4></span>
     <span fxFlex="50" fxLayout="row" fxLayoutAlign="end center"><h4 style="font-weight: 300"><span class="hour">{{this.hour}}:</span><span class="minute">{{this.minute}}:</span><span class="second">{{this.second}}</span></h4></span>
   </mat-toolbar>
-  <h4 fxFlexAlign="end" style="font-weight: 300"><mat-icon id="blur-toggle" class="background-toggle" (click)="toggleBackground()">blur_off</mat-icon></h4>
-  <div class="app-body" fxFlex="fill">
+  <!-- <h4 fxFlexAlign="end" style="font-weight: 300"><mat-icon id="blur-toggle" class="background-toggle" (click)="toggleBackground()">blur_off</mat-icon></h4> -->
+  <div class="app-body" fxFlex="fill" fxFlexAlign="start stretch" fxLayoutAlign="column">
     <router-outlet></router-outlet>
   </div>
   <app-dock></app-dock>

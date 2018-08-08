@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WindowService } from './window.service';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ export class AppComponent {
   minute = "00";
   second = "00";
 
-  constructor() {
+  constructor(private windowService: WindowService) {
     this.updateTime();
     setInterval(() => {
       this.updateTime();

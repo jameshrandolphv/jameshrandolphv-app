@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WindowService } from '../window.service';
 
 @Component({
   selector: 'app-dock',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DockComponent implements OnInit {
 
-  constructor() { }
+  constructor(private windowService: WindowService) { }
 
   ngOnInit() {
+  }
+
+  toggleMusic() {
+    this.windowService.displayMusic = !this.windowService.displayMusic;
+    console.log(this.windowService.displayMusic);
   }
 
 }

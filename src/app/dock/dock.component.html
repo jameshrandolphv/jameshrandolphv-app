@@ -1,35 +1,23 @@
 <div fxShow="true" fxShow.lt-md="false" class="dock" fxLayout="row" fxLayoutAlign="center center">
-  <a href="http://soundcloud.com/slithek" target="_blank">
-    <div class="icon music" fxLayout="column" fxLayoutAlign="center center">
-      <mat-icon>cloud</mat-icon>
-    </div>
-  </a>
-  <a>
-    <div class="icon settings" fxLayout="column" fxLayoutAlign="center center">
-      <mat-icon>settings</mat-icon>
-    </div>
-  </a>
-  <a>
-    <div class="icon resume" fxLayout="column" fxLayoutAlign="center center">
-      <mat-icon>insert_drive_file</mat-icon>
-    </div>
-  </a>
+  <div (click)="toggleMusic()" class="icon music" fxLayout="column" fxLayoutAlign="center center">
+    <mat-icon>music_note</mat-icon>
+  </div>
+  <div class="icon settings" fxLayout="column" fxLayoutAlign="center center">
+    <mat-icon>settings</mat-icon>
+  </div>
+  <div class="icon resume" fxLayout="column" fxLayoutAlign="center center">
+    <mat-icon>insert_drive_file</mat-icon>
+  </div>
 </div>
 
 <div fxShow="false" fxShow.lt-md="true" class="dock-mobile" fxLayout="row" fxLayoutAlign="center center">
-  <a href="http://soundcloud.com/slithek" target="_blank">
-    <div class="icon-mobile music" fxLayout="column" fxLayoutAlign="center center">
-      <mat-icon>cloud</mat-icon>
-    </div>
-  </a>
-  <a>
-    <div class="icon-mobile settings" fxLayout="column" fxLayoutAlign="center center">
-      <mat-icon>settings</mat-icon>
-    </div>
-  </a>
-  <a>
-    <div class="icon-mobile resume" fxLayout="column" fxLayoutAlign="center center">
-      <mat-icon>insert_drive_file</mat-icon>
-    </div>
-  </a>
+  <div (click)="toggleMusic()" class="icon-mobile music" fxLayout="column" fxLayoutAlign="center center">
+    <mat-icon>music_note</mat-icon>
+  </div>
+  <div class="icon-mobile settings" fxLayout="column" fxLayoutAlign="center center">
+    <mat-icon>settings</mat-icon>
+  </div>
+  <div class="icon-mobile resume" fxLayout="column" fxLayoutAlign="center center">
+    <mat-icon>insert_drive_file</mat-icon>
+  </div>
 </div>

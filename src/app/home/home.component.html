@@ -1,7 +1,9 @@
 <!-- <div fxLayout="row wrap" fxLayoutAlign="space-around stretch"> -->
-<div style="height: 100%" fxLayout="column" fxLayoutAlign="center center">
+<div fxFlex="100" style="width: 100vw" fxLayout="column" fxLayoutAlign="center center">
   <!-- <app-bio-card class="bio-card" fxFlex="20" fxFlex.lt-md="95"></app-bio-card>
   <app-music-card class="music-card" fxFlex="75" fxFlex.lt-md="95"></app-music-card> -->
-  <h1 class="global-message">Click on an app!</h1>
-  <app-music-window></app-music-window>
+  <h1 class="global-message" *ngIf="!this.windowService.displayMusic">Click on an app!</h1>
+  <div fxFlex="100" fxLayout="row" fxLayoutAlign="stretch stretch" fxFlexAlign="stretch" *ngIf="this.windowService.displayMusic" style="padding: 20px">
+    <app-music-window fxFlex="100"></app-music-window>
+  </div>
 </div>
