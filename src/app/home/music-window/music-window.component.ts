@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WindowService } from '../../window.service';
 
 @Component({
   selector: 'app-music-window',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MusicWindowComponent implements OnInit {
 
-  constructor() { }
+  constructor(public windowService: WindowService) { }
 
   ngOnInit() {
+  }
+
+  toggleWindow() {
+    this.windowService.displayMusic = !this.windowService.displayMusic;
   }
 
 }

@@ -1,5 +1,9 @@
 <mat-card fxFlex="100" style="padding: 10px;">
-  <div style="width: 100%; height: 100%; overflow: auto">
+  <div style="width: 100%; height: 2%" fxLayout="row" fxLayoutAlign="end">
+    <mat-icon (click)="toggleWindow()" class="clear">clear</mat-icon>
+  </div>
+  <div style="width: 100%; height: 98%; overflow: auto; text-align: center">
       <app-music-card></app-music-card>
+      <mat-divider style="width: 80%; margin-left: 10%; margin-top: 20px"></mat-divider>
   </div>
 </mat-card>

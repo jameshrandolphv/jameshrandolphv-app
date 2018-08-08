@@ -1,0 +1,11 @@
+.clear {
+  border-radius: 100%;
+  padding: 2px;
+  background-color: rgb(136, 15, 15);
+  color: rgba(216, 216, 216, 0.856);
+  font-weight: 300;
+}
+
+.clear:hover {
+  cursor: pointer;
+}
