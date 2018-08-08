@@ -8,7 +8,7 @@ import { WindowService } from '../window.service';
 })
 export class DockComponent implements OnInit {
 
-  constructor(private windowService: WindowService) { }
+  constructor(public windowService: WindowService) { }
 
   ngOnInit() {
   }

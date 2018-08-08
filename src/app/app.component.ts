@@ -13,7 +13,7 @@ export class AppComponent {
   minute = "00";
   second = "00";
 
-  constructor(private windowService: WindowService) {
+  constructor(public windowService: WindowService) {
     this.updateTime();
     setInterval(() => {
       this.updateTime();
